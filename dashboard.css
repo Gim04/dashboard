@@ -1,0 +1,166 @@
+body {
+  font-size: .875rem;
+}
+
+.feather {
+  width: 16px;
+  height: 16px;
+  vertical-align: text-bottom;
+}
+
+/*
+ * Sidebar
+ */
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100; /* Behind the navbar */
+  padding: 0;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.sidebar-sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 48px; /* Height of navbar */
+  height: calc(100vh - 48px);
+  padding-top: .5rem;
+  overflow-x: hidden;
+  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+}
+
+.sidebar .nav-link {
+  font-weight: 500;
+  color: #333;
+}
+
+.sidebar .nav-link .feather {
+  margin-right: 4px;
+  color: #999;
+}
+
+.sidebar .nav-link.active {
+  color: #007bff;
+}
+
+.sidebar .nav-link:hover .feather,
+.sidebar .nav-link.active .feather {
+  color: inherit;
+}
+
+.sidebar-heading {
+  font-size: .75rem;
+  text-transform: uppercase;
+}
+
+/*
+ * Navbar
+ */
+
+.navbar-brand {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  font-size: 1rem;
+  background-color: rgba(0, 0, 0, .25);
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+
+.navbar .form-control {
+  padding: .75rem 1rem;
+  border-width: 0;
+  border-radius: 0;
+}
+
+.form-control-dark {
+  color: #fff;
+  background-color: rgba(255, 255, 255, .1);
+  border-color: rgba(255, 255, 255, .1);
+}
+
+.form-control-dark:focus {
+  border-color: transparent;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, .25);
+}
+
+/*
+ * Utilities
+ */
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+
+/*card*/
+.cardblue{
+  width: 190px;
+  height: 254px;
+  padding: 5px;
+  background: rgb(69,157, 212);
+  border-radius: 15px;
+  box-shadow: 0px 5px 60px 0px rgb(82, 82, 82);
+  margin: 3vh;
+}
+.cardgreen{
+  width: 190px;
+  height: 254px;
+  padding: 5px;
+  background: rgb(103, 171,84);
+  border-radius: 15px;
+  box-shadow: 0px 5px 60px 0px rgb(82, 82, 82);
+  margin: 3vh;
+}
+.cardyellow{
+  width: 190px;
+  height: 254px;
+  padding: 5px;
+  background: rgb(249, 214, 86);
+  border-radius: 15px;
+  box-shadow: 0px 5px 60px 0px rgb(82, 82, 82);
+  margin: 3vh;
+}
+
+.cardorange{
+  width: 190px;
+  height: 254px;
+  padding: 5px;
+  background: rgb(219, 100, 67);
+  border-radius: 15px;
+  box-shadow: 0px 5px 60px 0px rgb(82, 82, 82);
+  margin: 3vh;
+}
+
+.cardred{
+  width: 190px;
+  height: 254px;
+  padding: 5px;
+  background: rgb(209, 46, 38);
+  border-radius: 15px;
+  box-shadow: 0px 5px 60px 0px rgb(82, 82, 82);
+  margin: 3vh;
+}
+
+ .span {
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  display: block;
+  padding-top: 30px;
+  font-size: 16px;
+ }
+ 
+ .text {
+  font-weight: 600;
+  color: white;
+  display: block;
+  text-align: center;
+  padding-top: 3px;
+  font-size: 13px;
+ }
+
+ .divc{
+  margin-top: 10vh;
+  display: flex;
+  justify-content: center;
+ }
